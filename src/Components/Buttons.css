@@ -1,0 +1,24 @@
+#buttons input {
+    margin: 5px;
+    padding: 2px 16px;
+
+    border-radius: 5px;
+
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: rgb(1, 158, 1);
+    border-color: rgb(1, 158, 1);
+}
+
+
+.btn-find{
+    background-color: rgb(2, 87, 216);
+    border-color: rgb(2, 87, 216);
+}

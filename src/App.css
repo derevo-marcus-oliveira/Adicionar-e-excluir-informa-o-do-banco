@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+   
+  
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.input {
+  width: 78%;
+}
+
+.btn input {
+  height: 46px;
+}
+
+.find {
+  width: 100%;
+}
+
+.find input{
+  width: 97%;  
+}
+
+.line {
+  width: 100%;  
+  border-bottom: 2px solid;
+}
+
+.found {  
+  position: relative;
+  margin: 3px;
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 5px 0;
+}
+.item input{
+  margin: 0 5px;
+}
+
+.item div {
+  position: absolute;
+  padding: 15px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.item div i::before {
+  position: absolute;
+  content: "";
+  top: 40%;
+  right: 3px;
+
+  border-bottom: 2px solid;
+  width: 15px;
+  transform: rotate(-45deg);
+
+}
+
+.item div i::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 3px;
+
+  border-bottom: 2px solid;
+  width: 15px;
+  transform: rotate(45deg);
+}
+

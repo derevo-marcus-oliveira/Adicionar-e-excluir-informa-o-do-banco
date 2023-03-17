@@ -1,0 +1,24 @@
+#forms {
+    margin: 5px;
+}
+
+.forms-control {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.forms-control input {
+    border-radius: 4px;
+    font-size: 1em;
+    margin-left: 2px;
+}
+
+.forms-control label {
+    background-color: rgb(228, 228, 228);
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-transform: capitalize;
+}
